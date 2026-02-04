@@ -1,0 +1,39 @@
+# .NET
+bin/
+obj/
+[Ee]bug/
+[Rr]elease/
+*.user
+*.userosscache
+*.sln.docstates
+appsettings.Development.json
+jwt_demo.db
+*.db-shm
+*.db-wal
+
+# Angular
+node_modules/
+dist/
+.angular/
+.npm/
+.rpt2_cache/
+.swp
+*~
+*.log
+*.orig
+.DS_Store
+src/environments/environment.prod.ts
+
+# IDEs
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Secrets and Env
+.env
+.env.*
+!.env.example
+secrets.json
